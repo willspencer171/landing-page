@@ -1,15 +1,6 @@
-<h1>website-clones</h1>
-<h2>This is where I keep my Website Clone Projects</h2>
-
-<h3>Table of contents</h3>
-<ol>
-    <li><a href="https://github.com/willspencer171/website-clones/tree/master/Landing%20Page">The Odin Project: Landing Page Template</a>
-    <ul>
-        <li>The Odin Project's Landing Page project, found <a href="www.theodinproject.com/lessons/foundations-landing-page">here</a></li>
-    </ul>
-    </li>
-</ol>
-
+<h1>The Odin Project: Landing Page</h1>
+<p>This landing page is a dummy website using placeholders and text to illustrate the process of developing a static webpage from a simple design scheme</p>
+<p>The details for the landing page can be found <a href="https://www.theodinproject.com/lessons/foundations-landing-page">here</a></p>
 <footer>
     <h2>Disclaimer</h2>
     <hr>
