@@ -1,7 +1,7 @@
 <h1>The Odin Project: Landing Page</h1>
 <p>This landing page is a dummy website using placeholders and text to illustrate the process of developing a static webpage from a simple design scheme</p>
 <p>The details for the landing page can be found <a href="https://www.theodinproject.com/lessons/foundations-landing-page">here</a></p>
-<p>The landing page itself is hosted <a href="willspencer171.github.io/landing-page">here</a>
+<p>The landing page itself is hosted <a href="https://willspencer171.github.io/landing-page">here</a>
 <footer>
     <h2>Disclaimer</h2>
     <hr>
