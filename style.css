@@ -153,8 +153,11 @@ li {
 .card-img {
     height: 100%;
     width: 100%;
-    background-image: url("https://picsum.photos/100");
     transition: ease-out 0.5s;
+}
+.card-img img {
+    height: 100%;
+    width: 100%;
 }
 .card-img:hover,
 .card-img:focus {
