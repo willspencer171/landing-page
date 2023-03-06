@@ -1,0 +1,242 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.25s;
+    padding: 0;
+    margin: 0;
+    background-color: #f9faf8;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.bor { /* Useful for showing containers when things aren't
+    working */
+    border: pink solid 1px;
+    z-index: 1;
+}
+
+.header {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: 24px;
+    
+}
+#top > .header{
+    color: #f9faf8;
+    background-color: hsl(215, 28%, 17%);
+}
+.font-white {
+    color: #f9faf8;
+}
+
+.header-link,
+.header-link:visited {
+    transition-timing-function: ease-in-out;
+    transition: 0.25s;
+
+    text-decoration: none;
+    font-size: 18px;
+    padding-inline: 4px;
+    color: hsl(220, 13%, 91%);
+}
+.header-link:link {
+    transition-timing-function: ease-in-out;
+    color: hsl(220, 13%, 91%);
+}
+.header-link:hover {
+    transition-timing-function: ease-in-out;
+    color: hsl(220, 13%, 65%);
+}
+
+.title {
+    width: 100vw;
+    height: 23.75vh;
+    background-color: hsl(215, 28%, 21%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vw;
+}
+.img-cont {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+.img-cont::before {
+    content: "Placeholder Image";
+    text-align: center;
+    align-content: center;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-top: 90px;
+    background-color: #e5e7eb;
+    transition: ease 0.5s;
+}
+.img-cont:hover::before {
+    transition: ease 0.5s;
+    opacity: 90%;
+}
+.main-text {
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-text > * {
+    text-align: left;
+    justify-content: left;
+}
+.body {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+img {
+    height: 200px;
+    width: 300px;
+    
+}
+
+.second {
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 23.75vh;
+    row-gap: 0px;
+}
+.click-title {
+    font-weight: bolder;
+    font-size: 24px;
+}
+.click-objects {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    display: inline-block;
+    padding-inline: 5vw;
+}
+
+.card {
+    display: block;
+    width: 105px;
+    overflow: hidden;
+}
+.card > * {
+    text-align: left;
+    margin-top: 5px;
+}
+.card-head {
+    height: 100px;
+    width: 100px;
+    border: #3882f6 solid 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.card-img {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://picsum.photos/100");
+    transition: ease-out 0.5s;
+}
+.card-img:hover,
+.card-img:focus {
+    transform: scale(1.2);
+    transition: ease-out 0.5s;
+}
+.card-body {
+    position: relative;
+    height: 3.6em;
+}
+.card-body::after {
+    content: "";
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 1.2em;
+    background: linear-gradient(to right, hsl(90, 17%, 98%, 0), hsl(90, 17%, 98%, 1) 90%);
+    background: linear-gradient()
+}
+
+.third {
+    background-color: #e5e7eb;
+    height: 23.75vh;
+}
+.quote {
+    margin-inline: auto;
+    position: relative;
+    font-style: italic;
+    font-size: 36px;
+    width: 750px;
+    top: 50%;
+    text-align: left;
+    transform: translateY(-50%);
+}
+.quote::after {
+    content: "- Chris Hemsworth, maybe";
+    position: absolute;
+    bottom: -1.2em;
+    right: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.last {
+    display: flex;
+    width: 100vw;
+    height: 23.75vh;
+    align-items: center;
+}
+.call-to-action {
+    width: 50%;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
+.call-to-action .text :first-child {
+    font-size: 32px;
+}
+.call-to-action .text > * {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+button {
+    all: unset;
+    background-color: #e5e7eb;
+    height: 50%;
+    padding-inline: 5px;
+    border-radius: 5px;
+    box-shadow:0 0 15px 2px #646464;
+    transition: ease-in-out 0.25s;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #f9faf8;
+    transition: ease-in-out 0.25s;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px 2px #646464;
+
+}
+
